@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');   /* introding font */
+
+h1{
+	font-family:'Dela Gothic One', cursive;
+	
+}
+
+#top-header{
+	
+	/* border-bottom:2px solid #000; */
+	text-align:center;
+	
+	position:relatve;
+	width:100%;
+	background:rgba(255,255,255,.9);
+	margin-top:20px;
+}
+
+#Top Products{
+	width:  100px;
+		margin: auto;
+	
+}
+
+body{
+	background-color:#fff;
+	color:#000;
+	
+}
+
+article{
+	
+	width:300px;
+	height:300px;
+	font-size:20px !important;
+	display: inline-block;
+	border:2px solid #ddd;
+	padding:10px;
+	margin: 20px;
+	background:77f;
+	text-align:center;
+	/* box-shadow: 5px 5px 30px rgba(0,0,0,.5); */
+	text-shadow: 2px _5px 5px #000;
+	border-radius:0px;
+	transition: box-shadow 500ms, background 3s !important;
+}
+
+article img{
+	width:100%;
+	height:100%;
+}
+
+.article-image{
+	height:200px;
+	width:300px;
+	background-size:cover  !important;
+	background-position:center !important;
+	border-radius:10px;
+	
+}
+.link{
+	font-family:sans-serif;
+	font-weight:300 !important;
+	text-decoration:none;
+	text-align:center;
+	}
+	
+article:active{
+	color:#444;
+	opacity: .5;
+}
+
+article:hover{
+	box-shadow: 5px 5px 10px rgba(0,0,0,.7);
+}
+
+#decoration{
+width:1350px;
+height:500px;
+margin-left:40px;
+padding:30px;
+
+}
